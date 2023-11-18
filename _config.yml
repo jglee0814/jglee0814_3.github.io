@@ -44,6 +44,6 @@ plugins:
 
 remote_theme: samarsault/texture
 
-# theme: texture
+theme: texture
 
 future: true

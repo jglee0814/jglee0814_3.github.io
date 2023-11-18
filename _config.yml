@@ -18,14 +18,14 @@ texture:
   title: Jungwoo's personal blog
   tagline: Developer. College student
   date_format: "%b %-d, %Y"
-  style: black
+  style: purple
   showNav: false
   showPicker: true
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
+    twitter: jglee0814
+    github:  jglee0814
     linkedIn: in/thelehhman
     rss: rss
  
@@ -42,8 +42,6 @@ plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
 
-remote_theme: samarsault/texture
-
-# theme: texture
+theme: texture
 
 future: true

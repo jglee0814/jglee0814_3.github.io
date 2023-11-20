@@ -44,3 +44,4 @@ plugins:
 #theme: texture
 
 future: true
+destination: _site

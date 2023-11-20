@@ -31,11 +31,10 @@ jobs:
         needs: build
 
         steps:
-            - name: Checkout code
+            - name: Checkout repository
               uses: actions/checkout@v2
       
             - name: Deploy to GitHub Pages
               uses: JamesIves/github-pages-deploy-action@3.7.1
               with:
-                branch: gh-pages
-                folder: _site # Change this to your build folder
+                github_token: ${{ secrets.GITHUB_TOKEN }}

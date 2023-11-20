@@ -25,6 +25,10 @@ jobs:
         - name: Build Jekyll Site
           run: bundle exec jekyll build
 
+        - name: Check Git version
+          run: git --version
+
+
     deploy: 
         runs-on: ubuntu-latest
 
